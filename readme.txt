@@ -1,1 +1,3 @@
+To run: execute the below command from command line.
+
 mvn install -Dapikey="bc3bee2291a28b43261c8c1368fad99d"  -Denv="prod"
