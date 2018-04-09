@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1943" started-at="2018-04-09T03:55:31Z" finished-at="2018-04-09T03:55:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1943" started-at="2018-04-09T03:55:31Z" finished-at="2018-04-09T03:55:33Z">
+      <class name="test.java.MovieDbSearchTest">
+        <test-method status="PASS" signature="searchForMovieTest()[pri:0, instance:test.java.MovieDbSearchTest@51565ec2]" name="searchForMovieTest" duration-ms="1927" started-at="2018-04-09T03:55:31Z" finished-at="2018-04-09T03:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMovieTest -->
+      </class> <!-- test.java.MovieDbSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
