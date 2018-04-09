@@ -2,45 +2,45 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="2407" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+  <suite name="Surefire suite" duration-ms="2262" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="2407" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+    <test name="Surefire test" duration-ms="2262" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
       <class name="test.java.MovieDbConnectionTest">
-        <test-method status="PASS" signature="getNewTokenTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="getNewTokenTest" duration-ms="2375" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="PASS" signature="getNewTokenTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="getNewTokenTest" duration-ms="2240" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNewTokenTest -->
-        <test-method status="PASS" signature="checkConnectionTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="checkConnectionTest" duration-ms="2359" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="PASS" signature="checkConnectionTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="checkConnectionTest" duration-ms="2216" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkConnectionTest -->
       </class> <!-- test.java.MovieDbConnectionTest -->
       <class name="test.java.MovieDbSearchTest">
-        <test-method status="PASS" signature="searchForMovieTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieTest" duration-ms="2094" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForMovieTest -->
-        <test-method status="PASS" signature="searchForMovieNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieNoTerm" duration-ms="2078" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForMovieNoTerm -->
-        <test-method status="PASS" signature="searchForTvNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvNoTerm" duration-ms="2078" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForTvNoTerm -->
-        <test-method status="PASS" signature="searchForTvTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvTest" duration-ms="2094" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForTvTest -->
-        <test-method status="PASS" signature="searchForTvBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvBadTerm" duration-ms="2359" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForTvBadTerm -->
-        <test-method status="PASS" signature="searchForMovieBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieBadTerm" duration-ms="2359" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="PASS" signature="searchForMovieBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieBadTerm" duration-ms="2216" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForMovieBadTerm -->
+        <test-method status="PASS" signature="searchForMovieNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieNoTerm" duration-ms="1900" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMovieNoTerm -->
+        <test-method status="PASS" signature="searchForMovieTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieTest" duration-ms="1916" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMovieTest -->
+        <test-method status="PASS" signature="searchForTvBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvBadTerm" duration-ms="2216" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvBadTerm -->
+        <test-method status="PASS" signature="searchForTvNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvNoTerm" duration-ms="1900" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvNoTerm -->
+        <test-method status="PASS" signature="searchForTvTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvTest" duration-ms="1916" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvTest -->
       </class> <!-- test.java.MovieDbSearchTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
