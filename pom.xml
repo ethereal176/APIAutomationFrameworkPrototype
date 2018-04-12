@@ -24,6 +24,14 @@
 				<configuration>
 					<parallel>methods</parallel>
 					<threadCount>10</threadCount>
+
+					<!-- WebDriver Location Properties -->
+					<systemPropertyVariables>
+						<webdriver.chrome.driver>${project.basedir}/Vendor/chromedriver.exe</webdriver.chrome.driver>
+						<webdriver.edge.driver>${project.basedir}/Vendor/MicrosoftWebDriver.exe</webdriver.edge.driver>
+						<webdriver.firefox.driver>${project.basedir}/Vendor/geckodriver.exe</webdriver.firefox.driver>
+						<webdriver.ie.driver>${project.basedir}/Vendor/IEDriverServer.exe</webdriver.ie.driver>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -44,6 +52,13 @@
 			<artifactId>rest-assured</artifactId>
 			<version>3.0.7</version>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.11.0</version>
 		</dependency>
 	</dependencies>
 </project>

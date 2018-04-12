@@ -1,7 +1,20 @@
+<<<<<<< HEAD
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\ApiBaseTestFrame.java
+C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\BrowserBaseTestFrame.java
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\MovieDbConnectionHelper.java
+C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\java\OverstockSearchTest.java
+C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\DriverUtil.java
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\RequestDetails.java
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\RestUtil.java
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\resources\MovieDbSearchHelper.java
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\java\MovieDbConnectionTest.java
 C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\src\test\java\MovieDbSearchTest.java
+=======
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\resources\RequestDetails.java
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\resources\MovieDbSearchHelper.java
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\resources\ApiBaseTestFrame.java
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\java\MovieDbSearchTest.java
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\java\MovieDbConnectionTest.java
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\resources\RestUtil.java
+C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\src\test\resources\MovieDbConnectionHelper.java
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174

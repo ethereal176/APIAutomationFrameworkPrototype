@@ -1,4 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.781 s - in TestSuite
+<<<<<<< HEAD
+Tests run: 9, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 7.907 s <<< FAILURE! - in TestSuite
+searchForTvNoTerm(test.java.MovieDbSearchTest)  Time elapsed: 1.696 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvNoTerm(MovieDbSearchTest.java:61)
+
+searchForMovieNoTerm(test.java.MovieDbSearchTest)  Time elapsed: 1.697 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieNoTerm(MovieDbSearchTest.java:35)
+
+searchForMovieBadTerm(test.java.MovieDbSearchTest)  Time elapsed: 1.697 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieBadTerm(MovieDbSearchTest.java:41)
+
+searchForTvBadTerm(test.java.MovieDbSearchTest)  Time elapsed: 1.697 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvBadTerm(MovieDbSearchTest.java:67)
+
+searchForMovieTest(test.java.MovieDbSearchTest)  Time elapsed: 1.701 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieTest(MovieDbSearchTest.java:28)
+
+searchForTvTest(test.java.MovieDbSearchTest)  Time elapsed: 1.701 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvTest(MovieDbSearchTest.java:54)
+
+checkConnectionTest(test.java.MovieDbConnectionTest)  Time elapsed: 2.2 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbConnectionTest.checkConnectionTest(MovieDbConnectionTest.java:22)
+
+getNewTokenTest(test.java.MovieDbConnectionTest)  Time elapsed: 2.223 s  <<< FAILURE!
+java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbConnectionTest.getNewTokenTest(MovieDbConnectionTest.java:28)
+
+=======
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.665 s - in TestSuite
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174

@@ -1,46 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="8" ignored="0" total="9" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="2407" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+<<<<<<< HEAD
+  <suite name="Surefire suite" duration-ms="7440" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:32Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="2407" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+    <test name="Surefire test" duration-ms="7440" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:32Z">
+      <class name="test.java.OverstockSearchTest">
+        <test-method status="PASS" signature="searchForSomethingTest()[pri:0, instance:test.java.OverstockSearchTest@246ae04d]" name="searchForSomethingTest" duration-ms="7415" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForSomethingTest -->
+      </class> <!-- test.java.OverstockSearchTest -->
       <class name="test.java.MovieDbConnectionTest">
-        <test-method status="PASS" signature="getNewTokenTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="getNewTokenTest" duration-ms="2375" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="FAIL" signature="getNewTokenTest()[pri:0, instance:test.java.MovieDbConnectionTest@735f7ae5]" name="getNewTokenTest" duration-ms="2223" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.resources.MovieDbConnectionHelper.getToken(MovieDbConnectionHelper.java:35)
+at test.java.MovieDbConnectionTest.getNewTokenTest(MovieDbConnectionTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNewTokenTest -->
-        <test-method status="PASS" signature="checkConnectionTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="checkConnectionTest" duration-ms="2359" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="FAIL" signature="checkConnectionTest()[pri:0, instance:test.java.MovieDbConnectionTest@735f7ae5]" name="checkConnectionTest" duration-ms="2200" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbConnectionTest.checkConnectionTest(MovieDbConnectionTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+=======
+  <suite name="Surefire suite" duration-ms="2262" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2262" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+      <class name="test.java.MovieDbConnectionTest">
+        <test-method status="PASS" signature="getNewTokenTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="getNewTokenTest" duration-ms="2240" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewTokenTest -->
+        <test-method status="PASS" signature="checkConnectionTest()[pri:0, instance:test.java.MovieDbConnectionTest@3796751b]" name="checkConnectionTest" duration-ms="2216" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkConnectionTest -->
       </class> <!-- test.java.MovieDbConnectionTest -->
       <class name="test.java.MovieDbSearchTest">
-        <test-method status="PASS" signature="searchForMovieTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieTest" duration-ms="2094" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+<<<<<<< HEAD
+        <test-method status="FAIL" signature="searchForMovieTest()[pri:0, instance:test.java.MovieDbSearchTest@2c6a3f77]" name="searchForMovieTest" duration-ms="1701" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbSearchTest.searchForMovieTest(MovieDbSearchTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForMovieTest -->
-        <test-method status="PASS" signature="searchForMovieNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieNoTerm" duration-ms="2078" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="FAIL" signature="searchForMovieNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@2c6a3f77]" name="searchForMovieNoTerm" duration-ms="1681" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [422] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbSearchTest.searchForMovieNoTerm(MovieDbSearchTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForMovieNoTerm -->
-        <test-method status="PASS" signature="searchForTvNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvNoTerm" duration-ms="2078" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="FAIL" signature="searchForTvNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@2c6a3f77]" name="searchForTvNoTerm" duration-ms="1681" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [422] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbSearchTest.searchForTvNoTerm(MovieDbSearchTest.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForTvNoTerm -->
-        <test-method status="PASS" signature="searchForTvTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvTest" duration-ms="2094" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="FAIL" signature="searchForTvTest()[pri:0, instance:test.java.MovieDbSearchTest@2c6a3f77]" name="searchForTvTest" duration-ms="1701" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbSearchTest.searchForTvTest(MovieDbSearchTest.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForTvTest -->
-        <test-method status="PASS" signature="searchForTvBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvBadTerm" duration-ms="2359" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchForTvBadTerm -->
-        <test-method status="PASS" signature="searchForMovieBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieBadTerm" duration-ms="2359" started-at="2018-04-09T04:33:26Z" finished-at="2018-04-09T04:33:28Z">
+        <test-method status="FAIL" signature="searchForMovieBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@2c6a3f77]" name="searchForMovieBadTerm" duration-ms="1681" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbSearchTest.searchForMovieBadTerm(MovieDbSearchTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForMovieBadTerm -->
+        <test-method status="FAIL" signature="searchForTvBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@2c6a3f77]" name="searchForTvBadTerm" duration-ms="1681" started-at="2018-04-12T02:36:25Z" finished-at="2018-04-12T02:36:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Request Failed: Correct Status Code received expected [200] but found [401]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at test.java.MovieDbSearchTest.searchForTvBadTerm(MovieDbSearchTest.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvBadTerm -->
+=======
+        <test-method status="PASS" signature="searchForMovieBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieBadTerm" duration-ms="2216" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMovieBadTerm -->
+        <test-method status="PASS" signature="searchForMovieNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieNoTerm" duration-ms="1900" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMovieNoTerm -->
+        <test-method status="PASS" signature="searchForMovieTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForMovieTest" duration-ms="1916" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMovieTest -->
+        <test-method status="PASS" signature="searchForTvBadTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvBadTerm" duration-ms="2216" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvBadTerm -->
+        <test-method status="PASS" signature="searchForTvNoTerm()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvNoTerm" duration-ms="1900" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvNoTerm -->
+        <test-method status="PASS" signature="searchForTvTest()[pri:0, instance:test.java.MovieDbSearchTest@6442b0a6]" name="searchForTvTest" duration-ms="1916" started-at="2018-04-09T23:04:32Z" finished-at="2018-04-09T23:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForTvTest -->
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
       </class> <!-- test.java.MovieDbSearchTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

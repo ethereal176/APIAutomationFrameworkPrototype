@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.MovieDbConnectionTest">
+      <class name="test.java.OverstockSearchTest">
         <methods>
-          <include name="getNewTokenTest"/>
-          <include name="checkConnectionTest"/>
+          <include name="searchForSomethingTest"/>
         </methods>
-      </class> <!-- test.java.MovieDbConnectionTest -->
+      </class> <!-- test.java.OverstockSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,128 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.781" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7.907" tests="9" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype/Vendor/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\test-classes;C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\classes;C:\Users\ether\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ether\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ether\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured\3.0.7\rest-assured-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ether\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ether\.m2\repository\io\rest-assured\json-path\3.0.7\json-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured-common\3.0.7\rest-assured-common-3.0.7.jar;C:\Users\ether\.m2\repository\io\rest-assured\xml-path\3.0.7\xml-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ether\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\ether\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ether\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ether\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ether\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ether\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\ether\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ether\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ether\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ether\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ether\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ether\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ether\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="webdriver.ie.driver" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype/Vendor/IEDriverServer.exe"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ether\AppData\Local\Temp\surefire9081922413918686882\surefirebooter6890688767843955002.jar C:\Users\ether\AppData\Local\Temp\surefire9081922413918686882 2018-04-11T20-36-24_444-jvmRun1 surefire4206603572864446542tmp surefire_06852031890595556493tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\test-classes;C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\classes;C:\Users\ether\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ether\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ether\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured\3.0.7\rest-assured-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ether\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ether\.m2\repository\io\rest-assured\json-path\3.0.7\json-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured-common\3.0.7\rest-assured-common-3.0.7.jar;C:\Users\ether\.m2\repository\io\rest-assured\xml-path\3.0.7\xml-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ether\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\ether\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ether\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ether\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ether\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ether\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\ether\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ether\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ether\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ether\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ether\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ether\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\ether\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\ether\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ether"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
+    <property name="basedir" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype"/>
+    <property name="file.separator" value="\"/>
+    <property name="webdriver.firefox.driver" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype/Vendor/geckodriver.exe"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ether\AppData\Local\Temp\surefire9081922413918686882\surefirebooter6890688767843955002.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="webdriver.edge.driver" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype/Vendor/MicrosoftWebDriver.exe"/>
+    <property name="user.name" value="ether"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ether\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ether\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="user.dir" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_162/bin/server;C:/Program Files/Java/jre1.8.0_162/bin;C:/Program Files/Java/jre1.8.0_162/lib/amd64;C:\Program Files\Java\jdk1.8.0_162\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\apache-maven-3.5.3\bin;C:\Users\ether\AppData\Local\Microsoft\WindowsApps;C:\Users\ether\AppData\Local\GitHubDesktop\bin;C:\Users\ether\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="searchForTvNoTerm" classname="test.java.MovieDbSearchTest" time="1.696">
+    <failure message="Request Failed: Correct Status Code received expected [422] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvNoTerm(MovieDbSearchTest.java:61)
+</failure>
+    <system-out><![CDATA[https://api.themoviedb.org/3/search/movie?api_key=null&query=&page=1
+https://api.themoviedb.org/3/search/movie?api_key=null&query=Deadpool&page=1
+https://api.themoviedb.org/3/search/tv?api_key=null&query=@^#^@!*@@!*!(&page=1
+https://api.themoviedb.org/3/search/movie?api_key=null&query=@^#^@!*@@!*!(&page=1
+https://api.themoviedb.org/3/search/tv?api_key=null&query=&page=1
+https://api.themoviedb.org/3/search/tv?api_key=null&query=Scorpion&page=1
+https://api.themoviedb.org/3/movie/76341?api_key=null
+https://api.themoviedb.org/3/authentication/token/new?api_key=null
+]]></system-out>
+    <system-err><![CDATA[[20:36:25.878] - Listening on http://localhost:10603/ 
+]]></system-err>
+  </testcase>
+  <testcase name="searchForMovieNoTerm" classname="test.java.MovieDbSearchTest" time="1.697">
+    <failure message="Request Failed: Correct Status Code received expected [422] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieNoTerm(MovieDbSearchTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="searchForMovieBadTerm" classname="test.java.MovieDbSearchTest" time="1.697">
+    <failure message="Request Failed: Correct Status Code received expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieBadTerm(MovieDbSearchTest.java:41)
+</failure>
+  </testcase>
+  <testcase name="searchForTvBadTerm" classname="test.java.MovieDbSearchTest" time="1.697">
+    <failure message="Request Failed: Correct Status Code received expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvBadTerm(MovieDbSearchTest.java:67)
+</failure>
+  </testcase>
+  <testcase name="searchForMovieTest" classname="test.java.MovieDbSearchTest" time="1.701">
+    <failure message="Request Failed: Correct Status Code received expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieTest(MovieDbSearchTest.java:28)
+</failure>
+  </testcase>
+  <testcase name="searchForTvTest" classname="test.java.MovieDbSearchTest" time="1.701">
+    <failure message="Request Failed: Correct Status Code received expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvTest(MovieDbSearchTest.java:54)
+</failure>
+  </testcase>
+  <testcase name="checkConnectionTest" classname="test.java.MovieDbConnectionTest" time="2.2">
+    <failure message="Request Failed: Correct Status Code received expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbConnectionTest.checkConnectionTest(MovieDbConnectionTest.java:22)
+</failure>
+    <system-err><![CDATA[Apr 11, 2018 8:36:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="getNewTokenTest" classname="test.java.MovieDbConnectionTest" time="2.223">
+    <failure message="Request Failed: Correct Status Code received expected [200] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbConnectionTest.getNewTokenTest(MovieDbConnectionTest.java:28)
+</failure>
+  </testcase>
+  <testcase name="searchForSomethingTest" classname="test.java.OverstockSearchTest" time="7.414"/>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.665" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +130,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\test-classes;C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\classes;C:\Users\ether\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ether\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ether\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured\3.0.7\rest-assured-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ether\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ether\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ether\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ether\.m2\repository\io\rest-assured\json-path\3.0.7\json-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured-common\3.0.7\rest-assured-common-3.0.7.jar;C:\Users\ether\.m2\repository\io\rest-assured\xml-path\3.0.7\xml-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ether\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\target\test-classes;C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\target\classes;C:\Users\ether\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ether\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ether\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured\3.0.7\rest-assured-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ether\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ether\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ether\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ether\.m2\repository\io\rest-assured\json-path\3.0.7\json-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured-common\3.0.7\rest-assured-common-3.0.7.jar;C:\Users\ether\.m2\repository\io\rest-assured\xml-path\3.0.7\xml-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ether\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +141,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ether\AppData\Local\Temp\surefire8483561074616174092\surefirebooter1686376827701022704.jar C:\Users\ether\AppData\Local\Temp\surefire8483561074616174092 2018-04-08T22-33-25_556-jvmRun1 surefire1510693792689452452tmp surefire_03561036156362154876tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\test-classes;C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype\target\classes;C:\Users\ether\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ether\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ether\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured\3.0.7\rest-assured-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ether\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ether\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ether\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ether\.m2\repository\io\rest-assured\json-path\3.0.7\json-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured-common\3.0.7\rest-assured-common-3.0.7.jar;C:\Users\ether\.m2\repository\io\rest-assured\xml-path\3.0.7\xml-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ether\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.java.command" value="C:\Users\ether\AppData\Local\Temp\surefire5397056213518072569\surefirebooter474448009180943434.jar C:\Users\ether\AppData\Local\Temp\surefire5397056213518072569 2018-04-09T17-04-31_641-jvmRun1 surefire6834094574237029398tmp surefire_05005427412126756229tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\target\test-classes;C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype\target\classes;C:\Users\ether\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\ether\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ether\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured\3.0.7\rest-assured-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ether\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ether\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\ether\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ether\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ether\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ether\.m2\repository\io\rest-assured\json-path\3.0.7\json-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\ether\.m2\repository\io\rest-assured\rest-assured-common\3.0.7\rest-assured-common-3.0.7.jar;C:\Users\ether\.m2\repository\io\rest-assured\xml-path\3.0.7\xml-path-3.0.7.jar;C:\Users\ether\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\ether\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\ether\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ether"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
-    <property name="basedir" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype"/>
+    <property name="basedir" value="C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ether\AppData\Local\Temp\surefire8483561074616174092\surefirebooter1686376827701022704.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ether\AppData\Local\Temp\surefire5397056213518072569\surefirebooter474448009180943434.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,7 +171,7 @@
     <property name="java.io.tmpdir" value="C:\Users\ether\AppData\Local\Temp\"/>
     <property name="apikey" value="bc3bee2291a28b43261c8c1368fad99d"/>
     <property name="java.version" value="1.8.0_162"/>
-    <property name="user.dir" value="C:\Users\ether\eclipse-workspace\ApiAutomationFrameworkPrototype"/>
+    <property name="user.dir" value="C:\Users\ether\Documents\GitHub\APIAutomationFrameworkPrototype"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -62,12 +185,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="searchForMovieNoTerm" classname="test.java.MovieDbSearchTest" time="2.078"/>
-  <testcase name="searchForTvNoTerm" classname="test.java.MovieDbSearchTest" time="2.078"/>
-  <testcase name="searchForTvTest" classname="test.java.MovieDbSearchTest" time="2.094"/>
-  <testcase name="searchForMovieTest" classname="test.java.MovieDbSearchTest" time="2.094"/>
-  <testcase name="checkConnectionTest" classname="test.java.MovieDbConnectionTest" time="2.359"/>
-  <testcase name="searchForMovieBadTerm" classname="test.java.MovieDbSearchTest" time="2.359"/>
-  <testcase name="searchForTvBadTerm" classname="test.java.MovieDbSearchTest" time="2.359"/>
-  <testcase name="getNewTokenTest" classname="test.java.MovieDbConnectionTest" time="2.375"/>
+  <testcase name="searchForMovieNoTerm" classname="test.java.MovieDbSearchTest" time="1.9"/>
+  <testcase name="searchForTvNoTerm" classname="test.java.MovieDbSearchTest" time="1.901"/>
+  <testcase name="searchForMovieTest" classname="test.java.MovieDbSearchTest" time="1.915"/>
+  <testcase name="searchForTvTest" classname="test.java.MovieDbSearchTest" time="1.915"/>
+  <testcase name="checkConnectionTest" classname="test.java.MovieDbConnectionTest" time="2.215"/>
+  <testcase name="searchForMovieBadTerm" classname="test.java.MovieDbSearchTest" time="2.216"/>
+  <testcase name="searchForTvBadTerm" classname="test.java.MovieDbSearchTest" time="2.216"/>
+  <testcase name="getNewTokenTest" classname="test.java.MovieDbConnectionTest" time="2.24"/>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
 </testsuite>

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,56 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">9 methods, 8 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbConnectionTest" hash-for-method="checkConnectionTest">checkConnectionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbConnectionTest" hash-for-method="getNewTokenTest">getNewTokenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForMovieBadTerm">searchForMovieBadTerm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForMovieNoTerm">searchForMovieNoTerm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForMovieTest">searchForMovieTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForTvBadTerm">searchForTvBadTerm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForTvNoTerm">searchForTvNoTerm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForTvTest">searchForTvTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,42 +151,7 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbConnectionTest" hash-for-method="checkConnectionTest">checkConnectionTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbConnectionTest" hash-for-method="getNewTokenTest">getNewTokenTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForMovieBadTerm">searchForMovieBadTerm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForMovieNoTerm">searchForMovieNoTerm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForMovieTest">searchForMovieTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForTvBadTerm">searchForTvBadTerm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForTvNoTerm">searchForTvNoTerm</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.MovieDbSearchTest" hash-for-method="searchForTvTest">searchForTvTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="test.java.OverstockSearchTest" hash-for-method="searchForSomethingTest">searchForSomethingTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -152,9 +166,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">test.java.MovieDbConnectionTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -163,6 +177,13 @@
                   <a name="checkConnectionTest">
                   </a> <!-- checkConnectionTest -->
                   <span class="method-name">checkConnectionTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbConnectionTest.checkConnectionTest(MovieDbConnectionTest.java:22)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -170,13 +191,21 @@
                   <a name="getNewTokenTest">
                   </a> <!-- getNewTokenTest -->
                   <span class="method-name">getNewTokenTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.resources.MovieDbConnectionHelper.getToken(MovieDbConnectionHelper.java:35)
+	at test.java.MovieDbConnectionTest.getNewTokenTest(MovieDbConnectionTest.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">test.java.MovieDbSearchTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -185,6 +214,13 @@
                   <a name="searchForMovieBadTerm">
                   </a> <!-- searchForMovieBadTerm -->
                   <span class="method-name">searchForMovieBadTerm</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieBadTerm(MovieDbSearchTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -192,6 +228,13 @@
                   <a name="searchForMovieNoTerm">
                   </a> <!-- searchForMovieNoTerm -->
                   <span class="method-name">searchForMovieNoTerm</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieNoTerm(MovieDbSearchTest.java:35)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -199,6 +242,13 @@
                   <a name="searchForMovieTest">
                   </a> <!-- searchForMovieTest -->
                   <span class="method-name">searchForMovieTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForMovieTest(MovieDbSearchTest.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -206,6 +256,13 @@
                   <a name="searchForTvBadTerm">
                   </a> <!-- searchForTvBadTerm -->
                   <span class="method-name">searchForTvBadTerm</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvBadTerm(MovieDbSearchTest.java:67)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -213,6 +270,13 @@
                   <a name="searchForTvNoTerm">
                   </a> <!-- searchForTvNoTerm -->
                   <span class="method-name">searchForTvNoTerm</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [422] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvNoTerm(MovieDbSearchTest.java:61)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -220,6 +284,28 @@
                   <a name="searchForTvTest">
                   </a> <!-- searchForTvTest -->
                   <span class="method-name">searchForTvTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Request Failed: Correct Status Code received expected [200] but found [401]
+	at test.java.MovieDbSearchTest.searchForTvTest(MovieDbSearchTest.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.OverstockSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForSomethingTest">
+                  </a> <!-- searchForSomethingTest -->
+                  <span class="method-name">searchForSomethingTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,6 +323,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;test.java.MovieDbConnectionTest&quot;/&gt;
       &lt;class name=&quot;test.java.MovieDbSearchTest&quot;/&gt;
+      &lt;class name=&quot;test.java.OverstockSearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -250,7 +337,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,44 +363,86 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
+<<<<<<< HEAD
+data.setCell(0, 1, 'searchForSomethingTest')
+data.setCell(0, 2, 'test.java.OverstockSearchTest')
+data.setCell(0, 3, 7415);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getNewTokenTest')
+data.setCell(1, 2, 'test.java.MovieDbConnectionTest')
+data.setCell(1, 3, 2223);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkConnectionTest')
+data.setCell(2, 2, 'test.java.MovieDbConnectionTest')
+data.setCell(2, 3, 2200);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchForMovieTest')
+data.setCell(3, 2, 'test.java.MovieDbSearchTest')
+data.setCell(3, 3, 1701);
+=======
 data.setCell(0, 1, 'getNewTokenTest')
 data.setCell(0, 2, 'test.java.MovieDbConnectionTest')
-data.setCell(0, 3, 2375);
+data.setCell(0, 3, 2240);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchForTvBadTerm')
+data.setCell(1, 1, 'searchForMovieBadTerm')
 data.setCell(1, 2, 'test.java.MovieDbSearchTest')
-data.setCell(1, 3, 2359);
+data.setCell(1, 3, 2216);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchForMovieBadTerm')
-data.setCell(2, 2, 'test.java.MovieDbSearchTest')
-data.setCell(2, 3, 2359);
+data.setCell(2, 1, 'checkConnectionTest')
+data.setCell(2, 2, 'test.java.MovieDbConnectionTest')
+data.setCell(2, 3, 2216);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkConnectionTest')
-data.setCell(3, 2, 'test.java.MovieDbConnectionTest')
-data.setCell(3, 3, 2359);
+data.setCell(3, 1, 'searchForTvBadTerm')
+data.setCell(3, 2, 'test.java.MovieDbSearchTest')
+data.setCell(3, 3, 2216);
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchForMovieTest')
+data.setCell(4, 1, 'searchForTvTest')
 data.setCell(4, 2, 'test.java.MovieDbSearchTest')
-data.setCell(4, 3, 2094);
+<<<<<<< HEAD
+data.setCell(4, 3, 1701);
+=======
+data.setCell(4, 3, 1916);
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'searchForTvTest')
+data.setCell(5, 1, 'searchForMovieNoTerm')
 data.setCell(5, 2, 'test.java.MovieDbSearchTest')
-data.setCell(5, 3, 2094);
+<<<<<<< HEAD
+data.setCell(5, 3, 1681);
+=======
+data.setCell(5, 3, 1916);
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'searchForMovieNoTerm')
+data.setCell(6, 1, 'searchForTvNoTerm')
 data.setCell(6, 2, 'test.java.MovieDbSearchTest')
-data.setCell(6, 3, 2078);
+<<<<<<< HEAD
+data.setCell(6, 3, 1681);
+=======
+data.setCell(6, 3, 1900);
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'searchForTvNoTerm')
+data.setCell(7, 1, 'searchForMovieBadTerm')
 data.setCell(7, 2, 'test.java.MovieDbSearchTest')
-data.setCell(7, 3, 2078);
+<<<<<<< HEAD
+data.setCell(7, 3, 1681);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchForTvBadTerm')
+data.setCell(8, 2, 'test.java.MovieDbSearchTest')
+data.setCell(8, 3, 1681);
+=======
+data.setCell(7, 3, 1900);
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+<<<<<<< HEAD
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+=======
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -339,49 +468,94 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.java.MovieDbSearchTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.java.OverstockSearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">searchForMovieTest</span>
+<<<<<<< HEAD
+                <span class="method-name">searchForSomethingTest</span>
+=======
+                <span class="method-name">searchForTvTest</span>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">test.java.MovieDbConnectionTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.java.MovieDbSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+<<<<<<< HEAD
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchForTvBadTerm</span>
+=======
+                <span class="method-name">getNewTokenTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkConnectionTest</span>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.java.MovieDbSearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+<<<<<<< HEAD
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchForTvTest</span>
+=======
+                <span class="method-name">searchForTvBadTerm</span>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchForTvNoTerm</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+<<<<<<< HEAD
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchForMovieBadTerm</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">searchForMovieNoTerm</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchForTvNoTerm</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.MovieDbConnectionTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">getNewTokenTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkConnectionTest</span>
+=======
+                <span class="method-name">searchForMovieBadTerm</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchForMovieTest</span>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.java.MovieDbSearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">searchForTvTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">searchForTvBadTerm</span>
+<<<<<<< HEAD
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchForMovieTest</span>
+=======
+                <span class="method-name">searchForTvNoTerm</span>
+>>>>>>> 47e1220d64abe26670ff3cf9b5e75077e6ef4174
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
